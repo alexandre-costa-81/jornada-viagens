@@ -34,12 +34,14 @@
 }
 
 .destinations-itens .item a.button {
+  width: 100%;
   text-align: center;
 }
 
 .destinations-itens .item h4 {
   font-size: 28px;
   font-weight: var(--title-weight);
+  margin: 24px 0;
 }
 
 .destinations-itens .item p {
@@ -47,4 +49,23 @@
   font-weight: var(--texts-weight);
   line-height: 1.5;
   margin-bottom: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .destinations-itens .item {
+    width: 648px;
+    height: 100%;
+    box-sizing: border-box;
+  }
+  .destinations-itens .item .img-item {
+    width: 648px;
+    height: 452px;
+  }
+  .destinations-itens .item .tokyo {
+    background: url(../img/tokyo-tablet-desktop.jpg) no-repeat center/cover;
+  }
+
+  .destinations-itens .item .osaka {
+    background: url(../img/osaka-tablet-desktop.jpg) no-repeat center/cover;
+  }
 }
