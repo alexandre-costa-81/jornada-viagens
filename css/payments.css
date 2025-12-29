@@ -40,6 +40,7 @@
 @media screen and (min-width: 1440px) {
   .payments .content-container {
     display: flex;
+    justify-content: space-between;
   }
 
   .payments .content-container .text-content {
@@ -48,5 +49,6 @@
 
   .payments .content-container .image-gallery {
     width: 790px;
+    margin: 0;
   }
 }
